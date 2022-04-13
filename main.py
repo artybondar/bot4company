@@ -109,7 +109,7 @@ def process_email_step(message):
 def website(message):
     markup = types.InlineKeyboardMarkup()
     markup.add(types.InlineKeyboardButton("Перейти на сайт", url=config.SITE))
-    bot.send_message(message.chat.id, config.COMPANYNAME, reply_markup=markup)
+    bot.send_message(message.chat.id, config.COMPANY_NAME, reply_markup=markup)
 
 
 @bot.message_handler(commands=['help'])
