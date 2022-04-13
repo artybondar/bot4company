@@ -8,7 +8,7 @@ Bot about company and send applications for group
 
 TOKEN = 'ID Token Bot'
 CHAT_ID = 'Chat for company'
-COMPANYNAME = 'name'
+COMPANY_NAME = 'name'
 SITE = 'https://site'
 HELP = 'some help'
 ABOUT = 'about company'
